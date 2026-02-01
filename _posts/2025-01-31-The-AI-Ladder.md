@@ -46,7 +46,7 @@ The AI Ladder enables the transition from **+AI** to **AI+**: moving beyond usin
 Collecting and storing **high‑quality data from diverse sources** so AI efforts have something reliable to work with.
 
 ### Key Actions
-- Identifying data sources such as **databases, SaaS systems, and IoT devices**
+- Identifying data sources such as **databases, SaaS systems**
 - Implementing collection tools and pipelines
 - Ensuring **data quality** at the point of entry
 
@@ -68,7 +68,23 @@ Cleaning, structuring, governing, and centralizing data so it becomes a trusted 
 - **Cleansing** data for accuracy
 - **Categorizing** it for easy retrieval
 - Implementing **governance and security policies**
-- **Centralizing storage** for accessible analytics and AI
+- **Data Productization** for accessible analytics and AI
+
+### High Value Use cases
+- Data Governance:
+    - **Data Classification:** Idenifying Personal Identifiable Information/Sentive Information (Automatic Data Profiliing and Data Classification)
+    - **Data Catalog**: Mapping Business Terms to Data and generating Data Assets Names and Descriptions
+    - **Data Catalog**: Industry Specific Business Glossary and Terms, Metadata management. 
+- Data Lineage: 
+    - **Regulatory Compliance**: BCBS 239, GDPR, DORA, PCI DSS.
+    - **Database migration**: large-scale data upgrade cycles
+    - **Impact Analysis/Root Cause Analysis**: Understanding upstream data origin and downstream data impacts
+- Data Quality: 
+    - Data Class: Automatic Assignment of Data Classes
+    - **Data Quality Checks** : detecting inaccuracies, inconsistencies, or missing data - Capitalization Check, Completeness, Data Classes Check, Data Type Check, Format Check, Missing Values, Length Check, Range Check, Uniqueness Check
+    - **Service Level Agreement (SLA)**: Data Quality Remdiateion 
+- Data Productization: 
+    - Accessible data: **Data Democratization and Data Mesh** - decentralized data architecture that treats data as a product and shift responsbility from central teams to business domains, improving data reusability 
 
 ### Importance
 - Compliance 
